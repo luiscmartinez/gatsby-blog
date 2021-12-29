@@ -29,6 +29,9 @@ class Navbar extends React.Component {
             <a href={process.env.GATSBY_GITHUB_URL} target="_blank">
               GitHub
             </a>
+            <a href={process.env.GATSBY_YOUTUBE_URL} target="_blank">
+              YouTube
+            </a>
           </div>
           <div className="mobile-menu">
             <img
@@ -51,6 +54,9 @@ class Navbar extends React.Component {
               </a>
               <a href={process.env.GATSBY_GITHUB_URL} target="_blank">
                 GitHub
+              </a>
+              <a href={process.env.GATSBY_YOUTUBE_URL} target="_blank">
+                YouTube
               </a>
             </div>
           </div>

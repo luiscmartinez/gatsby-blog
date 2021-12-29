@@ -19,14 +19,14 @@ class Navbar extends React.Component {
       <div className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
-            <Link to="/">Riley Brown</Link>
+            <Link to="/">MillionGrad</Link>
           </div>
           <div className="nav-items">
             <Link to="/">Home</Link>
             <a href="https://riley.gg" target="_blank">
               My Website
             </a>
-            <a href="https://github.com/Riley-Brown" target="_blank">
+            <a href={process.env.GATSBY_GITHUB_URL} target="_blank">
               GitHub
             </a>
             <a href="https://twitter.com/RileyB_96" target="_blank">

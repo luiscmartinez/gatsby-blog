@@ -52,7 +52,7 @@ class Navbar extends React.Component {
               <a href={process.env.GATSBY_AUTHOR_WEBSITE} target="_blank">
                 My Website
               </a>
-              <a href="https://github.com/Riley-Brown" target="_blank">
+              <a href={process.env.GATSBY_GITHUB_URL} target="_blank">
                 GitHub
               </a>
               <a href="https://twitter.com/RileyB_96" target="_blank">

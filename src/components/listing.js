@@ -43,8 +43,8 @@ const Listing = () => (
         `application`,
         `react`,
         `web development`,
-        `riley.gg`,
-        `riley brown web developer`,
+        `luismartinez.dev`,
+        `luis martinez web developer`,
       ]}
     />
     <StaticQuery

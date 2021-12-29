@@ -15,7 +15,7 @@ export default class PostLayout extends Component {
       <Layout location={location}>
         <SEO
           title={markdownRemark.frontmatter.title}
-          image={`https://blog.riley.gg${
+          image={`https://blog.luismartinez.dev${
             this.props.data.file.childImageSharp.fluid.src
           }`}
           description={markdownRemark.excerpt}

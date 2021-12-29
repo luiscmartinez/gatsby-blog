@@ -1,10 +1,10 @@
 module.exports = {
   pathPrefix: `/img`,
   siteMetadata: {
-    title: `Riley.gg Web Dev Blog`,
+    title: `MillionGrad's Blog`,
     description: `A Web Development blog made with the Gatsby static site generator.`,
-    author: `Riley Brown`,
-    url: `https://www.blog.riley.gg`,
+    author: `Luis Martinez`,
+    url: `https://www.blog.luismartinez.dev`,
     image: `https://i.imgur.com/5uEfXe7.png`,
   },
   plugins: [
@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Riley.gg Blog`,
-        short_name: `Riley.gg Blog`,
+        name: `milliongrad's Blog`,
+        short_name: `millionG's blog`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

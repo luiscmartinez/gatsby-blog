@@ -13,9 +13,9 @@ const IndexPage = ({ location }) => (
         `gatsby`,
         `application`,
         `react`,
-        `riley brown`,
+        `luismartinez.dev`,
+        `luis martinez web developer`,        
         `web development`,
-        `riley brown web developer`,
         `gatsby blog`,
       ]}
       image="./images/gatsby-blog-seo.png"

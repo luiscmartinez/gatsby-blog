@@ -23,7 +23,7 @@ class Navbar extends React.Component {
           </div>
           <div className="nav-items">
             <Link to="/">Home</Link>
-            <a href="https://riley.gg" target="_blank">
+            <a href={process.env.GATSBY_AUTHOR_WEBSITE} target="_blank">
               My Website
             </a>
             <a href={process.env.GATSBY_GITHUB_URL} target="_blank">
@@ -49,7 +49,7 @@ class Navbar extends React.Component {
               >
                 &times;
               </span>
-              <a href="https://riley.gg" target="_blank">
+              <a href={process.env.GATSBY_AUTHOR_WEBSITE} target="_blank">
                 My Website
               </a>
               <a href="https://github.com/Riley-Brown" target="_blank">

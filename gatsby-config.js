@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: `/img`,
   siteMetadata: {
     title: `MillionGrad's Blog`,
-    description: `A Web Development blog made with the Gatsby static site generator.`,
+    description: `Blog for my life's passions.`,
     author: `Luis Martinez`,
     url: `https://www.blog.luismartinez.dev`,
     image: `https://i.imgur.com/5uEfXe7.png`,
